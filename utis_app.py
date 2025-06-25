@@ -36,7 +36,7 @@ if st.button("Yoxla ✅"):
                 f"**🧑‍🦱 Ata adı:** {student['Ata adı']}\n\n"
                 f"**🏫 Sinif:** {student['Sinif']}\n"
                 f"**📚 Kitabça dili:** {student['Kitabça dili']}\n"
-                f"**🏷️ Mərkəz: {student['Qısa ad']}\n"
+                f"**🏷️ Mərkəz:** {student['Qısa ad']}\n"
                 f"**📍 Otaq:** {student['Otaq']}, **Yer:** {student['Yer']}"
             )
             if code in st.session_state.checked_codes:
